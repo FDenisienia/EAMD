@@ -116,3 +116,7 @@
 .form-btc {
     border-radius: 15px !important;
 }
+
+.dropdown-item:hover {
+    background-color: rgba(6, 101, 132, 0.5) !important;
+}
