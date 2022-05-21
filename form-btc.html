@@ -94,16 +94,25 @@
                     <div class="mb-3 mt-2">
                         <label for="exampleInputEmail1" class="form-label text-light">¿Why you want to buy bitcoin?</label>
                         <select class="form-select" aria-label="Default select example">
-                            <option selected>I want to save bitcoin</option>
-                            <option value="1">Because it will replace FIAT money</option>
-                            <option value="2">Trading</option>
+                            <option selected>...</option>
+                            <option value="1">I want to save bitcoin</option>
+                            <option value="2">Because it will replace FIAT money</option>
+                            <option value="3">Trading</option>
                         </select>
                         <div class="form-text">This information helps us to improve our services.</div>
                     </div>
-                    <div class=" mb-3 mt-2 ">
-                        <label for="exampleInputEmail1" class="form-label text-light">¿How many btc do you want?</label>
-                        <input type="text" class="form-control" placeholder="Enter the exact amount of btc">
-                        <div class="form-text">Minimun amount of btc 100</div>
+                    <div class=" mb-3 mt-2">
+                        <label for="exampleInputEmail1" class="form-label text-light">¿How many BTC/USD do you want?</label>
+                        <fieldset class="mb-2">
+                            <label class="text-white me-5">
+                                BTC <input type="radio" name="color" value="azul"> 
+                            </label>
+                            <label class="text-white">
+                                USD <input type="radio" name="color" value="amarillo"> 
+                            </label>
+                        </fieldset>
+
+                        <input type="text" class="form-control" placeholder="Enter the exact amount">
                     </div>
 
                     <button type="submit" class="btn btn-secondary text-center mt-2">Send Request</button>
