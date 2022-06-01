@@ -34,7 +34,7 @@
 
 .nav-link:hover {
     background-color: rgba(6, 101, 132, 0.5);
-    border-radius: 5px;
+    border-bottom: 5px;
     transition: .5s;
 }
 
